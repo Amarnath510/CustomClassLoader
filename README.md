@@ -34,7 +34,7 @@
 	}
     ```
 
-  - **loadClass(String)**: Most important method. This class is responsible for laoding the classes that start with "com.cldemo" else it will invoke parent class loaders.
+  - **loadClass(String)**: Most important method. This class is responsible for loading the classes that start with "com.cldemo" else it will invoke parent class loaders.
 
    ```Java
    	@Override
@@ -105,7 +105,7 @@
   ```
 
 ## Running the program <br />
-   Open Command Prompt parallel to com folder which is under CustomClassFolder.
+   Open Command Prompt under project root folder adn run the following commands,
 
   ```  
     > javac -cp . com/cldemo/Foo.java
