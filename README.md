@@ -121,12 +121,12 @@
   ```
 	*** Loading Class with CustomClassLoader ***: com.cldemo.Foo
 
-	*** Loading from default class loaders. ***: java.lang.Object
-	*** Loading from default class loaders. ***: java.lang.String
-	*** Loading from default class loaders. ***: java.lang.Exception
-	*** Loading from default class loaders. ***: java.lang.System
-	*** Loading from default class loaders. ***: java.lang.StringBuilder
-	*** Loading from default class loaders. ***: java.io.PrintStream
+	*** Loading by using default class loaders ***: java.lang.Object
+	*** Loading by using default class loaders ***: java.lang.String
+	*** Loading by using default class loaders ***: java.lang.Exception
+	*** Loading by using default class loaders ***: java.lang.System
+	*** Loading by using default class loaders ***: java.lang.StringBuilder
+	*** Loading by using default class loaders ***: java.io.PrintStream
 
 	Foo Constructor >>> 1212 1313
 	*** Loading Class with CustomClassLoader ***: com.cldemo.Bar
