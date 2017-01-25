@@ -115,7 +115,7 @@
     > java com/cldemo/CustomClassLoader com.cldemo.Foo 1212 1313
   ```
 
-## OUTPUT:
+## OUTPUT
   - Only classes in com.cldemo are loaded using our Custom class loader and remaining are loaded using default class loaders.
 
   ```
@@ -134,3 +134,6 @@
 	*** Loading from default class loaders. ***: java.lang.Class
 	Bar ClassLoader: com.cldemo.CCLoader@7852e922
   ```
+
+## Credits
+  - [Java ClassLoader](http://www.journaldev.com/349/java-classloader)
